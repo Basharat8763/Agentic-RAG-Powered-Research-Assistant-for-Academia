@@ -30,15 +30,6 @@ A key design principle is **selective agentic orchestration**:
 
 ---
 
-## Architecture Overview
-
-### **Agentic Components**
-- **Search Agent** – Fetches research papers from arXiv, Semantic Scholar, CrossRef  
-- **Ingestion Agent** – Performs chunking, embedding, and vector database storage  
-- **Retrieval Agent** – Semantic search over stored embeddings  
-- **Citation Agent** – Extracts DOIs and generates BibTeX references
-
-
 ---
 
 ## Tech Stack
