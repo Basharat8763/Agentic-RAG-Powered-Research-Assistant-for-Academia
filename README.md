@@ -243,16 +243,19 @@ http://localhost:5173
 # Screenshots
 
 ## Login Interface
-![Login Page](screenshots/login_page.png)
+<img width="570" height="760" alt="image" src="https://github.com/user-attachments/assets/5cbf96c0-4202-4e9d-be29-226394b680eb" />
 
 ## Dashboard
-![Dashboard](screenshots/dashboard.png)
+<img width="1233" height="682" alt="image" src="https://github.com/user-attachments/assets/40508a0d-66b8-42d4-8a83-feb8e99c28a2" />
 
 ## Research Paper Search
-![Search](screenshots/research_search.png)
+<img width="1233" height="662" alt="image" src="https://github.com/user-attachments/assets/faf23e93-2325-4846-a9d9-2ff6b97a7688" />
 
 ## AI Generated Summary
-![Generated Summary](screenshots/generated_summary.png)
+<img width="605" height="623" alt="image" src="https://github.com/user-attachments/assets/2064d0db-11bd-4fcb-ba9f-f3d8c559651e" />
+
+## Genearte Citation
+<img width="757" height="596" alt="image" src="https://github.com/user-attachments/assets/41046ef2-2e4e-494a-94b9-160465f82cfb" />
 
 ---
 
