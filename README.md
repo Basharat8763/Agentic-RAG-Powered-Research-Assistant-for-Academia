@@ -163,7 +163,7 @@ Agentic-RAG-Powered-Research-Assistant-for-Academia
 │   ├── research_search.png
 │   └── generated_summary.png
 │   └── generated_citation.png
-│
+│── demo
 ├── .gitignore
 └── README.md
 ```
