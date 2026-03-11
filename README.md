@@ -1,5 +1,17 @@
 # Agentic RAG-Powered Research Assistant for Academia
 
+<p align="center">
+  <img src="docs/banner.png" width="100%">
+</p>
+
+# Agentic RAG-Powered Research Assistant for Academia
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Django](https://img.shields.io/badge/Django-Backend-green)
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![RAG](https://img.shields.io/badge/AI-RAG-orange)
+![LangChain](https://img.shields.io/badge/LangChain-Agentic-purple)
+
 ## Overview
 
 This project presents the design and implementation of an **Agentic Retrieval-Augmented Generation (RAG) system** designed to assist academic research workflows. The platform integrates semantic document retrieval, vector databases, and large language model inference to automatically discover, process, and summarize academic literature.
@@ -35,19 +47,20 @@ docs/system_architecture.png
 
 Architecture Flow:
 
-Client Layer  
-↓  
-React Web Application  
-↓  
-Backend API (Django)  
-↓  
-AI Processing Layer  
-↓  
-LangChain Agentic RAG Pipeline  
-↓  
-Vector Databases (FAISS / ChromaDB)  
-↓  
-Groq Large Language Model  
+Client Layer
+↓
+React Web Application
+↓
+Backend API (Django)
+↓
+AI Processing Layer
+↓
+LangChain Agentic RAG Pipeline
+↓
+Vector Databases (FAISS / ChromaDB)
+↓
+Groq Large Language Model
+
 
 ---
 
