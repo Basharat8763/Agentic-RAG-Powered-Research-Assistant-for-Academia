@@ -162,6 +162,7 @@ Agentic-RAG-Powered-Research-Assistant-for-Academia
 │   ├── dashboard.png
 │   ├── research_search.png
 │   └── generated_summary.png
+│   └── generated_citation.png
 │
 ├── .gitignore
 └── README.md
