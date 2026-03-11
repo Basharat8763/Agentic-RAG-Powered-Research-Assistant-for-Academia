@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/banner.png" width="100%">
-</p>
-
 # Agentic RAG-Powered Research Assistant for Academia
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
