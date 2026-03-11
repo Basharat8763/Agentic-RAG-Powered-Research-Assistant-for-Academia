@@ -75,7 +75,7 @@ The research pipeline implemented in this system follows the workflow below:
 
 Workflow Diagram Location:
 
-docs/workflow_pipeline.png
+![Workflow Pipeline](docs/workflow_pipeline.png)
 
 ---
 
@@ -201,25 +201,20 @@ http://localhost:5173
 
 ## Screenshots
 
-Login Interface
+### Login Interface
+![Login Page](screenshots/login_page.png)
 
-screenshots/login_page.png
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-Dashboard
+### Research Paper Search
+![Search](screenshots/research_search.png)
 
-screenshots/dashboard.png
+### Paper Summary Page
+![Summary](screenshots/paper_summary.png)
 
-Research Paper Search
-
-screenshots/research_search.png
-
-Paper Summary Page
-
-screenshots/paper_summary.png
-
-AI Generated Summary
-
-screenshots/generated_summary.png
+### AI Generated Summary
+![Generated Summary](screenshots/generated_summary.png)
 
 ---
 
@@ -230,16 +225,6 @@ screenshots/generated_summary.png
 - AI models are used in inference-only mode
 - Vector storage implemented locally
 - Designed for research workflow assistance
-
----
-
-## Limitations
-
-- Limited to arXiv repository
-- No formal evaluation metrics implemented
-- No citation style generator yet
-- Basic authentication system
-- No production deployment pipeline
 
 ---
 
