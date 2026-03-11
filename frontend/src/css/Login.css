@@ -1,0 +1,138 @@
+/* Login.css */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .login-header h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+  }
+  
+  .login-header p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    margin-bottom: 30px;
+    background: #ecf0f1;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  
+  .toggle-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-btn.active {
+    background: #3498db;
+    color: white;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+  }
+  
+  .login-form input,
+  .login-form select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ecf0f1;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-form input:focus,
+  .login-form select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .name-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .name-fields input {
+    flex: 1;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background: #2980b9;
+  }
+  
+  .login-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-footer p {
+    color: #7f8c8d;
+  }
+  
+  .login-footer span {
+    color: #3498db;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .login-footer span:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 30px 20px;
+    }
+    
+    .name-fields {
+      flex-direction: column;
+      gap: 0;
+    }
+  }

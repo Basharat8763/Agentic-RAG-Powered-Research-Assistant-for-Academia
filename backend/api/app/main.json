@@ -1,0 +1,286 @@
+[
+    {
+        "Title": "Space Weather Prediction from the Ground: Case of CHAIN",
+        "about": {
+            "Authors": "Daikichi Seki,Satoru Ueno,Hiroaki Isobe,Kenichi Otsuji,Denis P. Cabezas,Kiyoshi Ichimoto,Kazunari Shibata,CHAIN team",
+            "Published ": "2018-08-20T03:24:10+00:00",
+            "Summary": "In this article, we insist on the importance and the challenges of the prediction of solar eruptive phenomena including flares, coronal mass ejections (CME), and filament eruptions fully based on the ground-based telescopes. It is true that satellites' data are indispensable for the space weather prediction, but they are vulnerable to the space weather effects. Therefore, the ground-based telescopes can be complementary to them from the viewpoint of space weather prediction. From this view point, one possible new flare prediction method that makes use of H-alpha, red wings, and blue wings images obtained by the SDDI/SMART, the ground-based telescope at Hida Observatory, is presented. And in order to show the possibility for the actual operation based on that method, the recent progress of CHAIN project, the international observation network, is mentioned in terms of their outcomes and capacity buildings.",
+            "PDF_URL": "https://arxiv.org/pdf/1808.06295v1",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": "A Public Website for the Automated Assessment and Validation of SARS-CoV-2 Diagnostic PCR Assays",
+        "about": {
+            "Authors": "Po-E Li,Adán Myers y Gutiérrez,Karen Davenport,Mark Flynn,Bin Hu,Chien-Chi Lo,Elais Player Jackson,Migun Shakya,Yan Xu,Jason Gans,Patrick S. G. Chain",
+            "Published ": "2020-06-08T13:17:07+00:00",
+            "Summary": "Summary: Polymerase chain reaction-based assays are the current gold standard for detecting and diagnosing SARS-CoV-2. However, as SARS-CoV-2 mutates, we need to constantly assess whether existing PCR-based assays will continue to detect all known viral strains. To enable the continuous monitoring of SARS-CoV-2 assays, we have developed a web-based assay validation algorithm that checks existing PCR-based assays against the ever-expanding genome databases for SARS-CoV-2 using both thermodynamic and edit-distance metrics. The assay screening results are displayed as a heatmap, showing the number of mismatches between each detection and each SARS-CoV-2 genome sequence. Using a mismatch threshold to define detection failure, assay performance is summarized with the true positive rate (recall) to simplify assay comparisons. Availability: https://covid19.edgebioinformatics.org/#/assayValidation. Contact: Jason Gans (jgans@lanl.gov) and Patrick Chain (pchain@lanl.gov)",
+            "PDF_URL": "https://arxiv.org/pdf/2006.04566v1",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": "Implications from analyticity constraints used in a Landshoff-Donnachie fit",
+        "about": {
+            "Authors": "M. M. Block,F. Halzen",
+            "Published ": "2006-05-19T21:15:23+00:00",
+            "Summary": "Landshoff and Donnachie[hep-ph/0509240, (2005)] parametrize the energy behavior of pp and p\\bar p scattering cross sections with five parameters, using: σ^+=56.08 s^{-0.4525}+21.70s^{0.0808} for pp, σ^-=98.39 s^{-0.4525}+21.70s^{0.0808} for p\\bar p. Using the 4 analyticity constraints of Block and Halzen[M. M. Block and F. Halzen, Phys. Rev. D {\\bf 72}, 036006 (2005)], we simultaneously fit the Landshoff-Donnachie form to the same ``sieved'' set of pp and p\\bar p cross section and ρdata that Block and Halzen used for a very good fit to a ln^2 s parametrization. We show that the satisfaction of the analyticity constraints will require complicated modifications of the Landshoff-Donnachie parametrization for lower energies, greatly altering its inherent appeal of simplicity and universality.",
+            "PDF_URL": "https://arxiv.org/pdf/hep-ph/0605216v1",
+            "doi": "10.1103/PhysRevD.74.117501"
+        }
+    },
+    {
+        "Title": "The gravitational torque of bars in optically unbarred and barred galaxies",
+        "about": {
+            "Authors": "D. L. Block,I. Puerari,J. H. Knapen,B. G. Elmegreen,R. Buta,S. Stedman,D. M. Elmegreen",
+            "Published ": "2001-06-01T13:13:55+00:00",
+            "Summary": "The relative bar torques for 45 galaxies observed at $K$- band with the 4.2m William Herschel Telescope are determined by transforming the light distributions into potentials and deriving the maximum ratios of the tangential forces relative to the radial forces. The results are combined with the bar torques for 30 other galaxies determined from our previous $K$-band survey (Buta & Block 2001). Relative bar torques determine the degree of spiral arm forcing, gas accretion, and bar evolution. They differ from other measures of bar strength, such as the relative amplitude of the bar determined photometrically, because they include the bulge and other disk light that contributes to the radial component of the total force. If the bulge is strong and the radial forcing large, then even a prominent bar can have a relatively weak influence on the azimuthal motions in the disk. Here we find that the relative bar torque correlates only weakly with the optical bar type listed in the Revised Shapley-Ames and de Vaucouleurs systems. In fact, some classically barred galaxies have weaker relative bar torques than classically unbarred galaxies. The optical class is a poor measure of azimuthal disk forcing for two reasons: some infrared bars are not seen optically, and some bars with strong bulges have their azimuthal forces so strongly diluted by the average radial force that they exert only small torques on their disks. The Hubble classification scheme poorly recognizes the gravitational influence of bars. Applications of our bar torque method to the high-redshift universe are briefly discussed.",
+            "PDF_URL": "https://arxiv.org/pdf/astro-ph/0106019v1",
+            "doi": "10.1051/0004-6361:20010775"
+        }
+    },
+    {
+        "Title": "New analyticity constraints on the high energy behavior of hadron-hadron cross sections",
+        "about": {
+            "Authors": "M. M. Block",
+            "Published ": "2006-01-25T20:25:59+00:00",
+            "Summary": "We here comment on a series of recent papers by Igi and Ishida[K. Igi and M. Ishida, Phys. Lett B 622, 286 (2005)] and Block and Halzen[M. M. Block and F. Halzen, Phys. Rev D 72, 036006 (2005)] that fit high energy $pp$ and $\\bar pp$ cross section and $ρ$-value data, where $ρ$ is the ratio of the real to the imaginary portion of the forward scattering amplitude. These authors used Finite Energy Sum Rules and analyticity consistency conditions, respectively, to constrain the asymptotic behavior of hadron cross sections by anchoring their high energy asymptotic amplitudes--even under crossing--to low energy experimental data. Using analyticity, we here show that i) the two apparently very different approaches are in fact equivalent, ii) that these analyticity constraints can be extended to give new constraints, and iii) that these constraints can be extended to crossing odd amplitudes. We also apply these extensions to photoproduction. A new interpretation of duality is given.",
+            "PDF_URL": "https://arxiv.org/pdf/hep-ph/0601210v3",
+            "doi": "10.1140/epjc/s2006-02605-8"
+        }
+    },
+    {
+        "Title": "Fock spaces and refined Severi degrees",
+        "about": {
+            "Authors": "Florian Block,Lothar Göttsche",
+            "Published ": "2014-09-17T04:45:13+00:00",
+            "Summary": "A convex lattice polygon Delta determines a pair (S,L) of a toric surface together with an ample toric line bundle on S. The Severi degree N^{Delta,delta} is the number of delta-nodal curves in the complete linear system |L| passing through dim|L|-delta general points. Cooper and Pandharipande showed that in the case of PP^1 x PP^1 the Severi degrees can be computed as the matrix elements of an operator on a Fock space. In this note we want to generalize and extend this result in two ways. First we show that it holds more generally for Delta a so called h-transverse lattice polygon. This includes the case of PP^2 and rational ruled surfaces, but also many other, also singular, surfaces. Using a deformed version of the Heisenberg algebra, we extend the result to the refined Severi degrees defined and studied by Göttsche and Shende and by Block and Göttsche. For Delta an h-transverse lattice polygon, one can, following Brugallé and Mikhalkin, replace the count of tropical curves by a count of marked floor diagrams, which are slightly simpler combinatorial objects. We show that these floor diagrams are the Feynman diagrams of certain operators on a Fock space, proving the result.",
+            "PDF_URL": "https://arxiv.org/pdf/1409.4868v1",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": "Magnetodielectric coupling and multi-blocking effect in the Ising-chain magnet Sr2Ca2CoMn2O9",
+        "about": {
+            "Authors": "Tathamay Basu,Nahed Sakly,Alain Pautrat,Fabien Veillon,Olivier Perez,Vincent Caignaert,Bernard Raveau,Vincent Hardy",
+            "Published ": "2020-09-23T07:20:06+00:00",
+            "Summary": "We have demonstrated magnetodielectric (MD) coupling in an Ising-chain magnet Sr2Ca2CoMn2O9, via detailed investigation of ac susceptibility and dielectric constant as a function of temperature, magnetic field and frequency. Sr2Ca2CoMn2O9 consists of spin-chains, made of the regular stacking of one CoO6 trigonal prism with two MnO6 octahedra. The (Co2+ Mn4+ Mn4+) unit stabilizes a (up-down-up) spin-state along the chains which are distributed on a triangular lattice. This compound undergoes a partially disordered antiferromagnetic transition at TN ~ 28 K. The dielectric constant exhibits a clear peak at TN only in presence of an external magnetic field (above 5 kOe), evidencing the presence of MD coupling, which is further confirmed by field-dependent dielectric measurements. We argue that spatial inversion symmetry can be broken as a result of exchange-striction along each spin chain, inducing uncompensated local dipoles. At low temperatures, a dipolar relaxation phenomenon is observed, bearing strong similarities with the blocking effect typical of the spin dynamics in this compound. Such a spin-dipole relationship is referred to as a multi-blocking effect, in relation with the concept of magnetodielectric multiglass previously introduced for related materials.",
+            "PDF_URL": "https://arxiv.org/pdf/2009.10969v2",
+            "doi": "10.1063/5.0056149"
+        }
+    },
+    {
+        "Title": "A new numerical method for obtaining gluon distribution functions $G(x,Q^2)=xg(x,Q^2)$, from the proton structure function $F_2^{γp}(x,Q^2)$",
+        "about": {
+            "Authors": "Martin M. Block",
+            "Published ": "2009-07-27T23:00:57+00:00",
+            "Summary": "An exact expression for the leading-order (LO) gluon distribution function $G(x,Q^2)=xg(x,Q^2)$ from the DGLAP evolution equation for the proton structure function $F_2^{γp}(x,Q^2)$ for deep inelastic $γ^* p$ scattering has recently been obtained [M. M. Block, L. Durand and D. W. McKay, Phys. Rev. D{\\bf 79}, 014031, (2009)] for massless quarks, using Laplace transformation techniques. Here, we develop a fast and accurate numerical inverse Laplace transformation algorithm, required to invert the Laplace transforms needed to evaluate $G(x,Q^2)$, and compare it to the exact solution. We obtain accuracies of less than 1 part in 1000 over the entire $x$ and $Q^2$ spectrum. Since no analytic Laplace inversion is possible for next-to-leading order (NLO) and higher orders, this numerical algorithm will enable one to obtain accurate NLO (and NNLO) gluon distributions, using only experimental measurements of $F_2^{γp}(x,Q^2)$.",
+            "PDF_URL": "https://arxiv.org/pdf/0907.4790v1",
+            "doi": "10.1140/epjc/s10052-009-1195-8"
+        }
+    },
+    {
+        "Title": "Computationally Relaxed Locally Decodable Codes, Revisited",
+        "about": {
+            "Authors": "Alexander R. Block,Jeremiah Blocki",
+            "Published ": "2023-05-01T20:31:01+00:00",
+            "Summary": "We revisit computationally relaxed locally decodable codes (crLDCs) (Blocki et al., Trans. Inf. Theory '21) and give two new constructions. Our first construction is a Hamming crLDC that is conceptually simpler than prior constructions, leveraging digital signature schemes and an appropriately chosen Hamming code. Our second construction is an extension of our Hamming crLDC to handle insertion-deletion (InsDel) errors, yielding an InsDel crLDC. This extension crucially relies on the noisy binary search techniques of Block et al. (FSTTCS '20) to handle InsDel errors. Both crLDC constructions have binary codeword alphabets, are resilient to a constant fraction of Hamming and InsDel errors, respectively, and under suitable parameter choices have poly-logarithmic locality and encoding length linear in the message length and polynomial in the security parameter. These parameters compare favorably to prior constructions in the poly-logarithmic locality regime.",
+            "PDF_URL": "https://arxiv.org/pdf/2305.01083v3",
+            "doi": "10.1109/ISIT54713.2023.10206655"
+        }
+    },
+    {
+        "Title": "Private and Resource-Bounded Locally Decodable Codes for Insertions and Deletions",
+        "about": {
+            "Authors": "Alexander R. Block,Jeremiah Blocki",
+            "Published ": "2021-03-25T20:29:40+00:00",
+            "Summary": "We construct locally decodable codes (LDCs) to correct insertion-deletion errors in the setting where the sender and receiver share a secret key or where the channel is resource-bounded. Our constructions rely on a so-called \"Hamming-to-InsDel\" compiler (Ostrovsky and Paskin-Cherniavsky, ITS '15 & Block et al., FSTTCS '20), which compiles any locally decodable Hamming code into a locally decodable code resilient to insertion-deletion (InsDel) errors. While the compilers were designed for the classical coding setting, we show that the compilers still work in a secret key or resource-bounded setting. Applying our results to the private key Hamming LDC of Ostrovsky, Pandey, and Sahai (ICALP '07), we obtain a private key InsDel LDC with constant rate and polylogarithmic locality. Applying our results to the construction of Blocki, Kulkarni, and Zhou (ITC '20), we obtain similar results for resource-bounded channels; i.e., a channel where computation is constrained by resources such as space or time.",
+            "PDF_URL": "https://arxiv.org/pdf/2103.14122v4",
+            "doi": "10.1109/ISIT45174.2021.9518249"
+        }
+    },
+    {
+        "Title": [
+            "block chain mode"
+        ],
+        "about": {
+            "Authors": "No Authors",
+            "Published ": "No Date Found",
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.1007/springerreference_9084",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "Prime-Partitioned Block Chain: A Scalable and Efficient Block Chain Implementation"
+        ],
+        "about": {
+            "Authors": [
+                "Gerardo, Ballabio"
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.2139/ssrn.2927669",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "Block-chain Implementation of Letter of Credit based Trading system in Supply Chain Domain"
+        ],
+        "about": {
+            "Authors": [
+                "Rajashekaragouda, G.S."
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2020,
+                        2
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.23919/icombi48604.2020.9203485",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "cipher-block chain mode"
+        ],
+        "about": {
+            "Authors": "No Authors",
+            "Published ": "No Date Found",
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.1007/springerreference_10002",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "When Block Chain and AI Integrates"
+        ],
+        "about": {
+            "Authors": [
+                "B., Ravishankar"
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2020,
+                        2
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.23919/icombi48604.2020.9203037",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "Adaptation of Block Chain Technology in manufacturing sector"
+        ],
+        "about": {
+            "Authors": [
+                "K, Balasubramanyam"
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2020,
+                        2
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.23919/icombi48604.2020.9203545",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "Proposing method for Public record maintenance using Block chain"
+        ],
+        "about": {
+            "Authors": [
+                "Jammulapati Ravi, Teja"
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2020,
+                        2
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.23919/icombi48604.2020.9203162",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "A Review of Adoption of Block Chain in Seafood Supply Chain"
+        ],
+        "about": {
+            "Authors": [
+                "Jia, Jia"
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2023,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.31274/cc-20240624-71",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "Role of Block Chain Technology Challenges in Supply Chain Management"
+        ],
+        "about": {
+            "Authors": [
+                "S, Karishma Ruhi"
+            ],
+            "Published ": {
+                "date-parts": [
+                    [
+                        2025,
+                        4,
+                        17
+                    ]
+                ]
+            },
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.21275/sr25410183026",
+            "doi": "😊 Sorry No Doi "
+        }
+    },
+    {
+        "Title": [
+            "Table 4: XR block-chain oriented authentication features."
+        ],
+        "about": {
+            "Authors": "No Authors",
+            "Published ": "No Date Found",
+            "Summary": "No Data About Abstract",
+            "PDF_URL": "https://doi.org/10.7717/peerj-cs.3054/table-4",
+            "doi": "😊 Sorry No Doi "
+        }
+    }
+]
