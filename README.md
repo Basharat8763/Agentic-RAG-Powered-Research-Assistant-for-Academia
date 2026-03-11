@@ -1,293 +1,265 @@
-# Development of an Agentic-RAG Powered Research Assistant for Academia
+# Agentic RAG-Powered Research Assistant for Academia
 
-## Abstract
+## Overview
 
-This project presents the design and implementation of an Agentic Retrieval-Augmented Generation (RAG) based research assistant aimed at supporting academic literature discovery and structured knowledge synthesis. The system integrates semantic retrieval, vector databases, and large language model inference to automate core research tasks such as document discovery, summarization, and contextual question answering.
+This project presents the design and implementation of an **Agentic Retrieval-Augmented Generation (RAG) system** designed to assist academic research workflows. The platform integrates semantic document retrieval, vector databases, and large language model inference to automatically discover, process, and summarize academic literature.
 
-The assistant retrieves research papers from arXiv, processes and embeds the retrieved documents into vector space, and enables semantically grounded generation using a Groq-powered large language model. The system is designed strictly for inference-based processing and does not involve any custom model training.
+The system retrieves research papers from **arXiv**, converts them into semantic embeddings, stores them in a vector database, and enables context-grounded responses using a Groq-powered language model. The architecture combines a **React frontend**, **Django backend**, and an **AI processing layer** implementing an agentic RAG pipeline.
 
----
-
-## 1. Project Overview
-
-Academic research workflows often involve:
-
-- Searching across large repositories of papers
-- Filtering results manually
-- Reviewing lengthy abstracts
-- Extracting key contributions
-- Verifying citations
-
-Traditional keyword-based search engines return documents but do not assist in structured synthesis or grounded reasoning. This project addresses that limitation by implementing an Agentic RAG pipeline that:
-
-- Retrieves relevant academic documents from arXiv
-- Converts documents into semantic embeddings
-- Stores them in a vector database
-- Uses a tool-based agent to perform grounded question answering
-- Generates structured summaries based only on retrieved context
-
-The system is implemented as a full-stack web application using React (frontend) and Django (backend).
+This project was developed as a **Final Year B.Tech Project in Computer Science and Engineering**.
 
 ---
 
-## 2. Core Features
+## Key Features
 
-- arXiv-based research paper search with date filtering
-- Metadata extraction (Title, Authors, Published Date, DOI, PDF URL, Abstract)
-- Semantic similarity search using vector embeddings
-- FAISS and ChromaDB vector store support
+- Academic paper retrieval from arXiv
+- Semantic search using vector embeddings
 - Agentic Retrieval-Augmented Generation pipeline
-- Groq LLM integration via LangChain
-- Context-grounded summary generation
+- AI-generated structured summaries
 - Document-based question answering
-- User authentication and profile management
-- Web-based dashboard interface
+- Context-grounded responses from retrieved papers
+- Vector database integration (FAISS and ChromaDB)
+- Groq LLM inference for fast response generation
+- User authentication and dashboard interface
+- Web-based research assistant platform
 
 ---
 
-## 3. System Architecture Overview
+## System Architecture
 
-The system follows a modular layered architecture:
+The system follows a **three-layer architecture** separating user interaction, application logic, and AI processing.
 
-### Frontend Layer
-- Built using React (Vite)
-- Handles user authentication
-- Manages research query submission
-- Displays search results and AI-generated summaries
+Architecture Diagram Location:
 
-### Backend Layer
-- Implemented using Django
-- Exposes REST endpoints
-- Integrates arXiv API
-- Coordinates the RAG pipeline
-- Manages user data
+docs/system_architecture.png
 
-### AI Processing Layer
-- HuggingFace Embeddings (all-mpnet-base-v2)
-- FAISS / ChromaDB vector stores
-- LangChain agent framework
-- Groq LLM for response generation
+Architecture Flow:
+
+Client Layer  
+↓  
+React Web Application  
+↓  
+Backend API (Django)  
+↓  
+AI Processing Layer  
+↓  
+LangChain Agentic RAG Pipeline  
+↓  
+Vector Databases (FAISS / ChromaDB)  
+↓  
+Groq Large Language Model  
 
 ---
 
-## 4. Technology Stack
+## System Workflow
+
+The research pipeline implemented in this system follows the workflow below:
+
+1. User logs into the platform  
+2. User enters a research topic  
+3. Backend retrieves academic papers from arXiv  
+4. Retrieved papers are processed and structured  
+5. Documents are converted into embeddings  
+6. Embeddings are stored in a vector database  
+7. A semantic retriever selects relevant document chunks  
+8. An agent-based controller invokes the LLM  
+9. The LLM generates a grounded academic summary  
+10. The response is displayed to the user  
+
+Workflow Diagram Location:
+
+docs/workflow_pipeline.png
+
+---
+
+## Technology Stack
 
 ### Frontend
-- React
-- Vite
-- JavaScript
-- CSS
-- Axios / Fetch API
+
+React  
+Vite  
+JavaScript  
+CSS  
+Axios  
 
 ### Backend
-- Django
-- Python 3.x
-- SQLite (default database)
+
+Django  
+Python  
+SQLite (development database)
 
 ### AI / Machine Learning
-- LangChain
-- HuggingFace Embeddings
-- FAISS
-- ChromaDB
-- Groq LLM
-- arXiv Python API
-- CrossRef metadata integration
+
+LangChain  
+HuggingFace Sentence Transformers  
+FAISS  
+ChromaDB  
+Groq LLM  
+arXiv API  
+CrossRef Metadata API  
 
 ---
 
-## 5. Agentic RAG Pipeline Implementation
+## Project Structure
 
-The system implements the following structured workflow:
-
-1. User submits research query.
-2. Backend retrieves relevant papers from arXiv.
-3. Retrieved metadata is converted into structured documents.
-4. Documents are embedded using HuggingFace sentence-transformer model.
-5. Embeddings are stored in FAISS or ChromaDB.
-6. A retriever selects top-k semantically similar documents.
-7. An Agent-based controller invokes Groq LLM using retrieved context.
-8. The LLM generates a structured, grounded response.
-9. The output is returned to the frontend for display.
-
-The agent is implemented using LangChain’s structured chat agent with tool-based document retrieval.
-
----
-
-## 6. Project Structure
-
-```
-FinalYearProject/
+Agentic-RAG-Powered-Research-Assistant-for-Academia
 │
-├── Front End/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── DashBoard.jsx
-│   │   │   ├── Login.jsx
-│   │   ├── context/
-│   │   ├── css/
+├── backend
+│   └── api
+│       ├── app
+│       │   ├── main_part.py
+│       │   ├── models.py
+│       │   ├── views.py
+│       │   ├── urls.py
+│       │   └── migrations
+│       │
+│       ├── manage.py
+│       ├── requirements.txt
+│       └── main.json
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── css
 │   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── ProRoute.jsx
-│   ├── index.html
+│   │   └── main.jsx
+│   │
 │   ├── package.json
 │   └── vite.config.js
 │
-└── Back End/
-    └── api/
-        ├── app/
-        │   ├── main_part.py
-        │   ├── models.py
-        │   ├── views.py
-        │   ├── urls.py
-        │   ├── migrations/
-        │   └── admin.py
-        ├── manage.py
-        ├── requirements.txt
-        ├── db.sqlite3
-        └── main.json
-```
+├── docs
+│   ├── system_architecture.png
+│   └── workflow_pipeline.png
+│
+├── screenshots
+│   ├── login_page.png
+│   ├── dashboard.png
+│   ├── research_search.png
+│   ├── paper_summary.png
+│   └── generated_summary.png
+│
+├── .gitignore
+└── README.md
 
 ---
 
-## 7. Backend API Endpoints
-
-| Endpoint   | Description |
-|------------|------------|
-| `/signup/` | Register a new user |
-| `/login/`  | Authenticate user |
-| `/search/` | Retrieve papers from arXiv and initialize RAG pipeline |
-| `/question/` | Ask contextual question over retrieved documents |
-| `/profile/` | Retrieve user profile information |
-
----
-
-## 8. How to Run the Project
+## Running the Project
 
 ### Backend Setup
 
-Navigate to backend directory:
+Navigate to backend directory
 
-```
-cd Back End/api
-```
+cd backend/api
 
-Activate Conda environment:
+Install dependencies
 
-```
-conda activate my
-```
-
-Install dependencies:
-
-```
 pip install -r requirements.txt
-```
 
-Apply migrations:
+Apply migrations
 
-```
 python manage.py migrate
-```
 
-Start Django server:
+Start Django server
 
-```
 python manage.py runserver
-```
 
-Backend runs at:
+Backend runs at
 
-```
-http://127.0.0.1:8000/
-```
+http://127.0.0.1:8000
 
 ---
 
 ### Frontend Setup
 
-Navigate to frontend directory:
+Navigate to frontend directory
 
-```
-cd Front End
-```
+cd frontend
 
-Install dependencies:
+Install dependencies
 
-```
 npm install
-```
 
-Run development server:
+Run development server
 
-```
 npm run dev
-```
 
-Frontend runs at:
+Frontend runs at
 
-```
-http://localhost:5173/
-```
+http://localhost:5173
 
 ---
 
-## 9. Current Scope and Constraints
+## Screenshots
 
-- Data source limited to arXiv
-- Supports text-based research papers only
-- No custom model fine-tuning
-- Inference-only architecture
-- Local vector storage (FAISS / ChromaDB)
-- Limited scalability testing
+Login Interface
+
+screenshots/login_page.png
+
+Dashboard
+
+screenshots/dashboard.png
+
+Research Paper Search
+
+screenshots/research_search.png
+
+Paper Summary Page
+
+screenshots/paper_summary.png
+
+AI Generated Summary
+
+screenshots/generated_summary.png
 
 ---
 
-## 10. Design Decisions
+## Current Scope
 
-- FAISS chosen for fast local similarity search
-- HuggingFace sentence-transformer selected for stable embedding quality
-- Groq LLM used for high-speed inference
-- Agent-based retrieval implemented to enforce context grounding
-- Modular backend architecture for maintainability
+- arXiv is used as the primary academic data source
+- System processes text-based research papers
+- AI models are used in inference-only mode
+- Vector storage implemented locally
+- Designed for research workflow assistance
 
 ---
 
-## 11. Limitations
+## Limitations
 
-- arXiv-only integration
-- No evaluation benchmark (Precision/Recall/Faithfulness)
-- No citation formatting engine implemented yet
-- Basic authentication mechanism
+- Limited to arXiv repository
+- No formal evaluation metrics implemented
+- No citation style generator yet
+- Basic authentication system
 - No production deployment pipeline
 
 ---
 
-## 12. Future Improvements
+## Future Work
 
-- Multi-agent planning architecture
 - Integration with Semantic Scholar and IEEE
-- Citation style generation (APA, IEEE, MLA)
+- Citation formatting support (APA / IEEE / MLA)
+- Multi-agent research pipelines
 - Quantitative evaluation metrics
-- Cloud deployment and scalability enhancements
+- Cloud deployment and scaling
 - Collaborative research features
 
 ---
 
-## 13. Academic Context
+## Academic Context
 
-This system was developed as a Final Year B.Tech thesis project in Computer Science and Engineering. It demonstrates applied implementation of:
+This system was developed as a **Final Year B.Tech thesis project** in Computer Science and Engineering. The work demonstrates practical implementation of:
 
 - Retrieval-Augmented Generation
 - Agent-based orchestration
 - Semantic search using vector databases
-- LLM-grounded academic assistance
-
-The project emphasizes structured design, modular architecture, and practical integration of modern AI tools into real academic workflows.
+- AI-assisted academic research systems
 
 ---
 
 ## Author
 
 Basharat Hassan  
-Bachelor of Technology (Computer Science and Engineering)  
-Sharda University  
+Bachelor of Technology – Computer Science and Engineering  
+Sharda University
