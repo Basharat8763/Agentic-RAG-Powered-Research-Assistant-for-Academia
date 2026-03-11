@@ -271,6 +271,6 @@ The project demonstrates practical implementation of:
 
 # Author
 
-**Basharat Hassan**  
+**Basharat**  
 Bachelor of Technology — Computer Science and Engineering  
 Sharda University
