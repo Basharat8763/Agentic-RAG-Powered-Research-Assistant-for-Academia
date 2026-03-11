@@ -37,7 +37,7 @@ The system follows a **three-layer architecture** separating user interaction, a
 
 Architecture Diagram Location:
 
-docs/system_architecture.png
+![System Architecture](docs/system_architecture.png)
 
 Architecture Flow:
 
@@ -140,12 +140,12 @@ Agentic-RAG-Powered-Research-Assistant-for-Academia
 ├── docs
 │   ├── system_architecture.png
 │   └── workflow_pipeline.png
+│   └── Project Report Results and Findings.pdf
 │
 ├── screenshots
 │   ├── login_page.png
 │   ├── dashboard.png
 │   ├── research_search.png
-│   ├── paper_summary.png
 │   └── generated_summary.png
 │
 ├── .gitignore
