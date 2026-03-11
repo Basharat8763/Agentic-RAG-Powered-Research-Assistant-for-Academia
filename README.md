@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/banner.png" width="100%">
-
-
 # Agentic RAG-Powered Research Assistant for Academia
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -94,9 +90,6 @@ The research pipeline implemented in this system follows the workflow below:
 9. The LLM generates a **grounded academic summary**  
 10. The response is displayed to the user  
 
-<p align="center">
-<img src="docs/workflow_pipeline.png" width="850">
-</p>
 
 ---
 
@@ -240,24 +233,6 @@ http://localhost:5173
 
 ---
 
-# Screenshots
-
-## Login Interface
-<img width="570" height="760" alt="image" src="https://github.com/user-attachments/assets/5cbf96c0-4202-4e9d-be29-226394b680eb" />
-
-## Dashboard
-<img width="1233" height="682" alt="image" src="https://github.com/user-attachments/assets/40508a0d-66b8-42d4-8a83-feb8e99c28a2" />
-
-## Research Paper Search
-<img width="1233" height="662" alt="image" src="https://github.com/user-attachments/assets/faf23e93-2325-4846-a9d9-2ff6b97a7688" />
-
-## AI Generated Summary
-<img width="605" height="623" alt="image" src="https://github.com/user-attachments/assets/2064d0db-11bd-4fcb-ba9f-f3d8c559651e" />
-
-## Genearte Citation
-<img width="757" height="596" alt="image" src="https://github.com/user-attachments/assets/41046ef2-2e4e-494a-94b9-160465f82cfb" />
-
----
 
 # Current Scope
 
@@ -298,4 +273,3 @@ The project demonstrates practical implementation of:
 **Basharat Hassan**  
 Bachelor of Technology — Computer Science and Engineering  
 Sharda University
-</p>
