@@ -1,6 +1,6 @@
 <p align="center">
   <img src="docs/banner.png" width="100%">
-</p>
+
 
 # Agentic RAG-Powered Research Assistant for Academia
 
@@ -298,3 +298,4 @@ The project demonstrates practical implementation of:
 **Basharat Hassan**  
 Bachelor of Technology — Computer Science and Engineering  
 Sharda University
+</p>
