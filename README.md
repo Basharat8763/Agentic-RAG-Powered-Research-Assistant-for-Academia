@@ -30,6 +30,8 @@ This project was developed as a **Final Year B.Tech Project in Computer Science 
 
 # Project Demonstration (Full System Workflow) hosted on Vimeo
 
+This demo showcases the complete workflow of the AI-powered academic research assistant, including paper retrieval, semantic search, and AI-driven summarization using an Agentic RAG pipeline.
+
 https://vimeo.com/1179147179?share=copy&fl=sv&fe=ci
 
 ---
