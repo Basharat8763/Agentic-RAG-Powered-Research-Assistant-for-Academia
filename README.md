@@ -28,7 +28,7 @@ This project was developed as a **Final Year B.Tech Project in Computer Science 
 
 ---
 
-# Project Working Demo Video
+# Project Demonstration (Full System Workflow) hosted on Vimeo
 
 https://vimeo.com/1179147179?share=copy&fl=sv&fe=ci
 
