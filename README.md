@@ -32,6 +32,8 @@ This project was developed as a **Final Year B.Tech Project in Computer Science 
 
 https://vimeo.com/1179147179?share=copy&fl=sv&fe=ci
 
+---
+
 # Key Features
 
 - Academic paper retrieval from **arXiv**
