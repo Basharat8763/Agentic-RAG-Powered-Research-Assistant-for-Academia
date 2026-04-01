@@ -6,7 +6,7 @@
 ![RAG](https://img.shields.io/badge/AI-RAG-orange)
 ![LangChain](https://img.shields.io/badge/LangChain-Agentic-purple)
 
-## AI-powered Academic Literature Discovery using Agentic Retrieval-Augmented Generation
+### AI-powered Academic Literature Discovery using Agentic Retrieval-Augmented Generation
 
 ---
 
